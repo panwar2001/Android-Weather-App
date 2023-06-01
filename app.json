@@ -1,11 +1,19 @@
 {
   "expo": {
-    "name": "app",
+    "name": "weather",
     "slug": "app",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "03d07c1f-9324-41e0-8da6-dd0a8b4655cf"
+      }
+    }
   },
-  "name": "app"
+  "name": "weather",
+  "android": {
+    "icon": "./assets/world.png"
+  }
 }
